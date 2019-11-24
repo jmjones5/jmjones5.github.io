@@ -1,0 +1,45 @@
+Process:         SkyVegasCompanion [44212]
+Path:            /Users/user/Library/Developer/CoreSimulator/Devices/DCB42043-A5D7-4832-B18D-4B6A44924F2D/data/Containers/Bundle/Application/E7999694-1162-461C-A660-B577D21C2279/App.app/App
+Load Address:    0x102928000
+Identifier:      App
+Version:         ???
+Code Type:       X86-64
+Parent Process:  debugserver [44214]
+
+Date/Time:       2019-11-01 11:42:18.732 +0000
+Launch Time:     2019-11-01 11:40:28.404 +0000
+OS Version:      iPhone OS 13.1 (17A844)
+Report Version:  7
+Analysis Tool:   /Users/user/Downloads/Xcode-11.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/LeakAgent
+Analysis Tool Version:  iOS Simulator 13.1 (17A844)
+
+Physical footprint:         140.8M
+Physical footprint (peak):  247.6M
+----
+
+ReadOnly portion of Libraries: Total=665.6M resident=255.3M(38%) swapped_out_or_unallocated=410.2M(62%)
+Writable regions: Total=1.7G written=54.1M(3%) resident=87.5M(5%) swapped_out=0K(0%) unallocated=1.6G(95%)
+
+                                VIRTUAL RESIDENT    DIRTY  SWAPPED VOLATILE   NONVOL    EMPTY   REGION
+REGION TYPE                        SIZE     SIZE     SIZE     SIZE     SIZE     SIZE     SIZE    COUNT (non-coalesced)
+===========                     ======= ========    =====  ======= ========   ======    =====  =======
+Accelerate framework               256K     256K     256K       0K       0K     256K       0K        2
+Activity Tracing                   256K      48K      48K       0K       0K      48K       0K        1
+CG raster data                    76.5M    76.5M    76.5M       0K       0K       0K       0K       24
+CoreAnimation                     50.1M    50.1M    50.1M       0K     256K     524K       0K       51
+CoreUI image data                 6000K    6000K    6000K       0K       0K       0K       0K        2
+Foundation                           4K       4K       4K       0K       0K       0K       0K        1
+IOSurface                         28.9M    28.9M    28.9M       0K       0K    28.9M       0K        8
+JS JIT generated code              1.0G       4K       0K       0K       0K       0K       0K        3
+Kernel Alloc Once                    8K       8K       8K       0K       0K       0K       0K        1
+MALLOC guard page                   48K       0K       0K       0K       0K       0K       0K       11
+MALLOC metadata                    192K     192K     192K       0K       0K       0K       0K       15
+MALLOC_LARGE                      4800K    4640K    4388K       0K       0K       0K       0K       25         see MALLOC ZONE table below
+MALLOC_LARGE (empty)               752K     744K     744K       0K       0K       0K       0K        9         see MALLOC ZONE table below
+MALLOC_LARGE metadata               16K      16K      16K       0K       0K       0K       0K        1         see MALLOC ZONE table below
+MALLOC_LARGE_REUSABLE             9996K    9996K    3644K       0K       0K       0K       0K        5         see MALLOC ZONE table below
+MALLOC_NANO                      128.0M    15.3M    10.5M       0K       0K       0K       0K        1         see MALLOC ZONE table below
+MALLOC_NANO (empty)              384.0M       0K       0K       0K       0K       0K       0K        1         see MALLOC ZONE table below
+MALLOC_SMALL                      72.0M    10.1M    10.0M       0K       0K       0K       0K        9         see MALLOC ZONE table below
+MALLOC_TINY                       17.0M    5156K    5156K       0K       0K       0K       0K       17         see MALLOC ZONE table below
+MALLOC_TINY (empty)               4096K     284K     284K       0K       0K       0K       0K        4         see MALLOC ZONE table below
